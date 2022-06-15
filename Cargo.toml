@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "3.2.4", features = ["derive"]}
-ureq = "2.4.0" # reqwest is a bit too much for just making some POST requests every so often
+ureq = { version = "2.4.0", features = ["json"]} # reqwest is a bit too much for just making some POST requests every so often
